@@ -1,0 +1,3 @@
+interface:
+  display_name: "Make It a 10"
+  short_description: "Two-pass critique with scores and concrete fixes"
