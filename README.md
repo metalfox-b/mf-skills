@@ -1,4 +1,4 @@
-# Agent Skills
+# Metal Fox Skills
 
 [Make It a 10](skills/make-it-a-10/SKILL.md) reviews a draft, design, plan, video, or code change in two passes. It scores the work against specific criteria and prioritizes fixes within your budget.
 
@@ -7,8 +7,8 @@
 Clone the repository:
 
 ```sh
-git clone https://github.com/metalfox-b/skills.git
-cd skills
+git clone https://github.com/metalfox-b/mf-skills.git
+cd mf-skills
 ```
 
 ### Codex
