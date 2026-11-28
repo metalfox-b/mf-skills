@@ -1,0 +1,10 @@
+{
+  "name": "mf-skills",
+  "version": "1.0.0",
+  "description": "Metal Fox skills: make-it-a-10 reviews a draft, design, plan, video or code change in two scored passes.",
+  "author": {
+    "name": "Metal Fox",
+    "url": "https://github.com/metalfox-b"
+  },
+  "repository": "https://github.com/metalfox-b/mf-skills"
+}

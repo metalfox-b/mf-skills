@@ -22,6 +22,25 @@ In a new Codex chat, use `$make-it-a-10` with the work you want reviewed.
 
 ### Claude Code
 
+Install it as a plugin:
+
+```
+/plugin install mf-skills --marketplace metalfox-b/mf-skills
+```
+
+To give every session in a project the plugin, add this to the project's `.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "mf-skills": { "source": { "source": "github", "repo": "metalfox-b/mf-skills" } }
+  },
+  "enabledPlugins": { "mf-skills@mf-skills": true }
+}
+```
+
+Or link the folder by hand:
+
 ```sh
 mkdir -p ~/.claude/skills
 ln -s "$PWD/skills/make-it-a-10" ~/.claude/skills/
